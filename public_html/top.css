@@ -22,6 +22,7 @@ body {
 
 div#content {
     width: 100%;
+    height: auto;
     overflow: hidden;
     }
 div.main {
@@ -91,4 +92,66 @@ nav {
 .button a:hover:after {
   right: 0;
   width: 100%;
+}
+
+
+/* news */
+.newslist {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .newslist {
+      font-size: 12px;
+      padding: 0 15px;
+    }
+  }
+  
+  .newslist li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 20px 10px;
+    border-top: 2px solid black;
+    line-height: 1.5;
+  }
+  
+  .newslist li:last-child {
+    border-bottom: 2px solid black;
+  }
+  
+  .newslist li time {
+    padding-right: 20px;
+  }
+  
+  .newslist li a {
+    color: cornflowerblue;
+    text-decoration: none;
+  }
+
+.author__urls social-icons {
+    -webkit-text-size-adjust: 100%;
+    font-size: 18px;
+    color: #494e52;
+    line-height: 1.5;
+    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    box-sizing: border-box;
+    orphans: 3;
+    widows: 3;
+    right: 0;
+    list-style-type: none;
+    border-radius: 4px;
+    z-index: -1;
+    cursor: default;
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
 }
