@@ -1,1 +1,1 @@
-scp -r public_html kuramoto@posl.ait.kyushu-u.ac.jp:~/public_html
+scp -r public_html kuramoto@posl.ait.kyushu-u.ac.jp:~/
